@@ -1,0 +1,7 @@
+version: '3'
+services:
+  gorender:
+    image: mirzakhany/gorender:latest
+    volumes:
+    - ./gorender:/etc/gorender
+    - ./data:/data
